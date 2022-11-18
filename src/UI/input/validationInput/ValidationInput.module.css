@@ -1,0 +1,11 @@
+.error{
+  background-color: #ee7575b2;
+}
+
+.error::placeholder{
+  color:rgba(0, 0, 0, 0.555);
+}
+#errorMsg{
+  font-family: 'PT Sans', sans-serif;
+  color: #F24C4C;
+}

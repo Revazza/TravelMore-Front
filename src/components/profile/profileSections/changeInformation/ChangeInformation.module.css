@@ -1,0 +1,93 @@
+.change_info {
+  margin-top: 20px;
+  width: 100%;
+  min-height: 50px;
+  cursor: pointer;
+  border-bottom: 1px solid grey;
+}
+.change_wrapper {
+  width: 100%;
+  min-height: inherit;
+  box-sizing: border-box;
+  padding-left: 40px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.change_wrapper img {
+  width: 19px;
+  height: 19px;
+  transform: rotate(90deg);
+}
+
+.reset_form {
+  width: 100%;
+  height: 140px;
+  background-color: white;
+  animation-name: showResetForm;
+  animation-duration: 400ms;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes showResetForm {
+  from {
+    height: 0;
+    opacity: 0;
+  }
+  to {
+    height:140px;
+    opacity: 1;
+  }
+}
+
+.hide_reset_form{
+  animation-name: hideResetForm;
+  animation-duration: 400ms;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes hideResetForm {
+  from {
+    height: 140px;
+    opacity: 1;
+  }
+  to {
+    height: 0;
+    opacity: 0;
+  }
+}
+
+.form_wrapper {
+  width: 100%;
+  height: inherit;
+  position: relative;
+}
+.wrapper {
+  width: 70%;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.submit_btn{
+  height: 26px;
+  position: relative;
+  top: 30px;
+}
+
+@keyframes showInput {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+
+

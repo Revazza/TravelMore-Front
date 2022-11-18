@@ -1,0 +1,16 @@
+.wrapper{
+  margin-top: 25px;
+  width: 100%;
+  text-align: center;
+}
+.wrapper button{
+  width: 40px;
+  margin-left: 15px;
+  height: 30px;
+}
+
+.inactive_pagination{
+  background-color: transparent;
+  border: 1px solid black;
+  color: black;
+}

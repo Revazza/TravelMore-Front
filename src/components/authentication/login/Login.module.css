@@ -1,0 +1,27 @@
+#form_wrapper{
+  margin: 80px auto 0 auto;
+  height: 400px;
+  padding-top: 25px;
+}
+
+#form_wrapper h1{
+  text-align: center;
+}
+#form_section{
+  width: 70% ;
+  margin: 50px auto 0 auto;
+}
+#password_inp{
+  margin-top: 20px;
+}
+
+#submit_btn{
+  margin-top: 25px;
+  height: 30px;
+}
+
+
+#errorMsg{
+  margin-top: 12px;
+  color: #F15412;
+}

@@ -1,0 +1,22 @@
+.my_btn{
+  width: 100%;
+  height: inherit;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  font-size: 13px;
+  border-radius: 2px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 300ms;
+  background-color: rgb(12, 138, 223);
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.my_btn:disabled{
+  background-color: transparent;
+  cursor:not-allowed;
+  color: grey;
+  border: 1px solid grey;
+}

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Baumans&family=Kdam+Thmor+Pro&family=Koulen&family=Montserrat:wght@300;400&family=PT+Sans&family=Rowdies&display=swap');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(229, 229, 229, 0.185);
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: bolder;
+}
+
+label,
+button,
+li {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: bolder;
+}
+input::placeholder {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.App-content {
+  width: 1080px;
+  margin: 0 auto;
+  
+}
+
+@media screen and (max-width:1144px) {
+  .App-content{
+    width: 100%;
+  }
+}
+
+.Auth_wrapper,
+.Home_wrapper,
+.Profile_wrapper,
+.MyGuests_wrapper,
+.MyBookings_wrapper {
+  width: 100%;
+  position: relative;
+}
+
+
+.Auth_Loader{
+  width: 100%;
+  height: calc(100vh - 60px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

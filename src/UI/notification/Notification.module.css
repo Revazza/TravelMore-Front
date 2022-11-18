@@ -1,0 +1,85 @@
+
+.wrapper{
+  width: 220px;
+  height: 80px;
+  background-color: #5FD068;
+  position: fixed;
+  right: 70px;
+  border-radius: 5px;
+  animation-name: showNotification;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  font-size: 12px;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  color: rgba(255, 255, 255, 0.904);
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes showNotification {
+  from{
+    top: -50px;
+    opacity: 0;
+  }
+  to{
+    top: 60px;
+    opacity: 1;
+  }
+}
+#hideNotification{
+  animation-name: hideNotification;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+@keyframes hideNotification {
+  from{
+    top: 60px;
+    opacity: 1;
+  }
+  to{
+    top: -200px;
+    opacity: 0;
+  }
+}
+.error{
+  background-color: #F24C4C;
+}
+.success{
+  background-color: #5FD068;
+  color: black;
+}
+.warning{
+  background-color: #FFA500;
+}
+
+@media screen and (max-width:1150px) {
+  .wrapper p{
+    font-size: 12px;
+  }
+  .wrapper {
+    width: 250px;
+    height: 50px;
+    right: 36%;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .wrapper{
+    left: 120px;
+    height: 40px;
+  }
+  .wrapper p{
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .wrapper{
+    left: 22%;
+  } 
+}

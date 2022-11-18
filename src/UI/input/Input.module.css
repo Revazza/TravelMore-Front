@@ -1,0 +1,29 @@
+.input_class{
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid grey;
+  outline: none;
+  font-size: 13px;
+  padding: 5px 0 5px 6px;
+  transition: 300ms;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif; 
+  font-weight: bolder;
+}
+.input_class::placeholder{
+  font-family: 'Montserrat', sans-serif; 
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 13px;
+}
+
+.input_class:focus{
+  transition: 300ms;
+  border-bottom: 1px solid black;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

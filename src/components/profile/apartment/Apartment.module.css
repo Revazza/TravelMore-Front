@@ -1,0 +1,47 @@
+
+
+.wrapper{
+  margin-top: 60px;
+  width: 100%;
+  min-height: 50px;
+}
+
+.wrap_section{
+  width: 100%;
+  min-height: 50px;
+  box-sizing: border-box;
+  padding: 10px 40px;
+  border-radius: 3px;
+}
+
+.show_apartment{
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+
+}
+.show_apartment * {
+  cursor: pointer;
+}
+
+
+.title label{
+  font-size: 20px;
+}
+.arrow img{
+  transform:rotate(90deg);
+}
+
+
+@media screen and (max-width:600px) {
+  .wrap_section{
+    padding: 10px 15px;
+  }
+  .title label{
+    font-size: 15px;
+  }
+}
+

@@ -1,0 +1,75 @@
+.wrapper{
+  width: 100%;
+  height: inherit;
+  position: relative;
+  cursor: pointer;
+  z-index: 5;
+}
+
+.list_btn{
+  width: 100%;
+  height: inherit;
+  font-family: 'Baumans', cursive;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.list_btn p{
+  font-size: 11px;
+}
+.list li{
+  font-size: 10px;
+}
+
+.list_btn img{
+  position: relative;
+  top: 2px;
+  left: 10px;
+  width: 10px;
+  transform:rotate(90deg);
+}
+.list{
+  position: absolute;
+  top: 30px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+  padding: 5px 20px 15px 20px;
+  box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 1px 3px 1px;
+  max-height: 130px;
+  overflow: auto;
+}
+
+.list ul li{
+  margin-top: 10px;
+  border-radius: 4px;
+  padding: 1px 5px;
+}
+.list ul li:hover{
+  background-color: rgba(128, 128, 128, 0.466);
+}
+
+@media screen and (max-width:480px) {
+
+  .list_btn p{
+    font-size: 10px;
+  }
+  .list li{
+    font-size: 9px;
+  }
+  .list{
+    padding: 5px 10px 15px 10px;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .list_btn p{
+    font-size: 9px;
+  }
+  .list li{
+    font-size: 8px;
+  }
+  .list{
+    padding: 5px 10px 15px 10px;
+  }
+}

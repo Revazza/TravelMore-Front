@@ -1,0 +1,84 @@
+
+.wrapper{
+  margin-top: 20px;
+  width: 100%;
+  height: 360px;
+  overflow: hidden;
+}
+
+.img_wrapper{
+  width: 100%;
+  height: 180px;
+}
+.img_wrapper img {
+  width: 100%;
+  height: inherit;
+  object-fit: cover;
+}
+
+.user_request{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.request_wrapper{
+  margin-top: 10px;
+  width: 100%;
+}
+
+.request_wrapper p{
+  letter-spacing: 1px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.checkin_out{
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.checkin_out span{
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.5);
+}
+#secondP{
+  margin-top: 10px;
+}
+
+.btn_wrapper{
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50%;
+}
+.btns{
+  width: 45%;
+  height: 37px;
+}
+.btns button{
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.842);
+}
+
+.decline_btn{
+  background-color: transparent;
+  border: 1px solid rgb(12, 138, 223);
+  color: rgb(12, 138, 223) !important;
+  transition: 300ms;
+}
+
+.declined,.accepted,.not_possible{
+  margin-top: 40px;
+  width: 100%;
+  height: 30px;
+}
+.declined button{
+  background-color: #F24C4C;
+}
+.accepted button{
+  background-color: #36AE7C;
+}
+.not_possible{
+  background-color: #333C83;
+}
+

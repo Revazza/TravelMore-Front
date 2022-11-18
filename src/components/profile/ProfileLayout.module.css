@@ -1,0 +1,51 @@
+.loading_wrapper{
+  width: 100%;
+  height: calc(100vh - 60px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.error_wrapper{
+  margin-top: 150px;
+}
+
+.wrapper{
+  position: relative;
+  width: 100%;
+  top: 50px;
+  box-sizing: border-box;
+  padding: 60px 60px 30px 60px;
+}
+.update_info_section{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 400px;
+}
+.update_info_section h2{
+  font-size: 30px;
+  position: absolute;
+  top: 30px;
+}
+.add_apartment{
+  width: 100%;
+}
+
+.apartment_layout{
+  width: 100%;
+  min-height: 40px;
+}
+
+@media screen and (max-width:920px) {
+  .update_info_section{
+    flex-direction: column;
+    min-height: 230px;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .wrapper{
+    padding:25px 20px;
+  }
+}

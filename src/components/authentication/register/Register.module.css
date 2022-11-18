@@ -1,0 +1,146 @@
+
+
+.form_wrapper{
+  width: 690px;
+  margin: 100px auto 0 auto;
+  height: 700px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  overflow: hidden;
+
+}
+.form_wrapper p{
+  font-family: 'PT Sans', sans-serif;
+}
+.form_section{
+  box-sizing: border-box;
+  padding: 40px 20px;
+  width: 100%;
+}
+
+#secondSection{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.form_section h1{
+  text-align: center;
+}
+
+
+.input_wrapper{
+  width: 70%;
+  margin: 18px auto 0 auto;
+}
+.input_wrapper label{
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+
+.information{
+  min-height: 35px;
+  border: 1px solid rgb(99, 98, 98);
+  padding: 3px 7px;
+  box-sizing: border-box;
+  font-size: 14px;
+  width: 100%;
+  font-style: italic;
+  color:grey;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+
+.info{
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.822);
+}
+
+.register_btn{
+  width: 70%;
+  height: 30px;
+  margin: 15px auto 0 auto;
+  box-sizing: border-box;
+}
+.register_btn p {
+  margin-bottom: 5px;
+  color: #F15412;
+}
+
+.link_to{
+  position: relative;
+  top: 12px;
+  cursor: pointer;
+  color: #34B3F1;
+}
+
+#fileWrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+
+@media screen and (max-width:1280px) {
+  .form_wrapper{
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width:1025px) {
+  .form_wrapper{
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width:925px){
+  .form_wrapper{
+    margin-top: 70px;
+    width: 700px;
+    height: 900px;
+  }
+  .form_wrapper h1{
+    font-size: 35px;
+  }
+  .form_section input{
+    height: 40px;
+  }
+}
+
+@media screen and (max-width:750px){
+  .form_wrapper{
+    width: 90%;
+    height: 800px;
+  }
+  .input_wrapper,.register_btn{
+    width: 80%;
+  }
+  
+}
+@media screen and (max-width:650px) {
+  .form_wrapper h1{
+    font-size: 30px;
+  }
+  .register_btn{
+    height: 40px;
+    font-size: 20px;
+  }
+  .register_btn button{
+    font-size: 17px;
+  }
+  .form_section input{
+    font-size: 15px;
+  }
+  .form_section input::placeholder{
+    font-size: 15px;
+  }
+  #fileWrapper input{
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .form_wrapper{
+    width: 95%;
+    height: 800px;
+  }
+  .input_wrapper,.register_btn{
+    width: 80%;
+  }
+}
